@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    background-color: aquamarine;
+}
+
+.logo{
+    width: 200px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noneBox{
+    width: 300px;
+    height: 70px;
+    display: flex;
+}
+
+nav{
+    width: 700px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 70px;
+}
+
+nav > ul > li{
+    float: left;
+    width: 175px;
+    height: 70px;
+    position: relative;
+    
+}
+
+nav > ul > li > a{
+    font-size: 18px;
+    font-weight: 600
+}
+
+nav > ul > li > ul{
+    width: 175px;
+    height: 100%;
+    position: absolute;
+    display: none;
+    font-size: 18px;
+}
+
+nav > ul > li > ul > li{
+    background-color: aliceblue;
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+}
+
+nav > ul > li > ul > li:hover {
+    background: aquamarine;
+}
